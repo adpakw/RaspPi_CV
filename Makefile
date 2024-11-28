@@ -1,5 +1,5 @@
 .PHONY init
-init: 
+init:
 	poetry lock --no-update
 	poetry install --no-interaction --no-root --no-ansi
 
