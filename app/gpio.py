@@ -24,7 +24,7 @@ while True:
     if (inputValue == True): 
         #print("BUT")
         GPIO.output(LED_PIN,True) 
-        if (angle < 90):
+        if (angle < 180):
             angle+=20
         else:
             angle = 5
